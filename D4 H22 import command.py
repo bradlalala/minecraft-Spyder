@@ -6,7 +6,7 @@ mc = Minecraft.create()
 x,y,z = mc.player.getTilePos()
 
 while True:
-    mc.executeCommand("kill @a")
+    mc.executeCommand("")
     sleep(0.1)
 
         
